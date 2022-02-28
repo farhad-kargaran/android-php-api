@@ -1,7 +1,6 @@
 <?php
 include_once('../common/include.php');
 include_once('../common/encipher.php');
-$user = json_decode(file_get_contents("php://input"));
 
 $user = json_decode(file_get_contents("php://input"));
 if(!$user->name)

@@ -160,6 +160,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
             android:background="#bbbbbb"
+            android:tag="id"
             android:onClick="delete"
             android:textSize="14sp"
             android:text="Del By ID"/>
@@ -185,6 +186,27 @@
             android:textSize="14sp"
             android:layout_marginLeft="10dp"
             android:text="Select name like"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:background="#bbbbbb"
+            android:tag="email"
+            android:onClick="delete"
+            android:textSize="14sp"
+            android:text="Del By Email"/>
+
+
+
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 

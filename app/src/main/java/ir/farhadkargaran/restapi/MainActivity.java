@@ -211,11 +211,13 @@ public class MainActivity extends AppCompatActivity {
     public void delete(View view) {
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
         Map<String, String> postParam= new HashMap<String, String>();
+        App.toastLong(view.getTag().toString());
+        if(view.getTag().toString().equalsIgnoreCase("id"))
         postParam.put("id", ed_id.getText().toString());
+        else if(view.getTag().toString().equalsIgnoreCase("email"))
         postParam.put("email", ed_email.getText().toString());
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.POST,url_del, new JSONObject(postParam), new Response.Listener<JSONObject>()
         {
-
             @Override
             public void onResponse(JSONObject response)
             {
