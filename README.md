@@ -1,4 +1,4 @@
-This is a simple android project that store and fetch data to mysql using PHP API
+This is.. a simple android project that store and fetch data to mysql using PHP API
 
 
 1- Clone the project using: git clone https://github.com/farhad-kargaran/android-php-api .
