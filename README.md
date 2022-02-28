@@ -17,7 +17,7 @@ This is a simple android project that store and fetch data to mysql using PHP AP
 
 CREATE TABLE `farhadka_restapitest`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , `password` TEXT NOT NULL , `contact` VARCHAR(50) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
 
-8- change android variables in MainActivity.java based on your domain and directories name in our example it is:
+8- change variables in MainActivity.java (url_signup,url_login,url_del,url_update and url_user) to fit your url, in our example it is:
 
     String url_signup = "http://farhadkargaran.ir/apps/restapitest/apis/signup.php";
     String url_login = "http://farhadkargaran.ir/apps/restapitest/apis/login.php";
@@ -25,7 +25,7 @@ CREATE TABLE `farhadka_restapitest`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , 
     String url_update = "http://farhadkargaran.ir/apps/restapitest/apis/update.php";
     String url_user = "http://farhadkargaran.ir/apps/restapitest/apis/user.php";
 
-9- upload restapi folder to your server, in our example the url is: "http://farhadkargaran.ir/apps/restapitest/"
+9- upload restapitest folder (located in helper folder) to your server, in our example the url is: "http://farhadkargaran.ir/apps/restapitest/"
 
 10- open file named database.php in the path: restapitest/common/database.php and change the following 3 variables based on yours:
     $user, $pass, $dbname
