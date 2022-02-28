@@ -1,6 +1,5 @@
 *.iml
 .gradle
-/helper/restapitest/common/database.php
 /local.properties
 /.idea/caches
 /.idea/libraries

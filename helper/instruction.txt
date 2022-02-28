@@ -1,6 +1,6 @@
-1- create a db, in our example named "farhadka_restapitest"
-2- create a user, in our example named "farhadka_root"
-3- set user password, in our exmple "F@rhad39096048"
+1- create a db, in our example named "farhadka_restapi"
+2- create a user, in our example named "farhadka_admin"
+3- set user password, in our exmple "123456"
 4- assign user to db with all privileges
 5- create user table with following command:
 CREATE TABLE `farhadka_restapitest`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , `password` TEXT NOT NULL , `contact` VARCHAR(50) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
