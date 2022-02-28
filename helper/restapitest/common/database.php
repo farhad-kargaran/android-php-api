@@ -4,7 +4,7 @@
         
  
         $user = "farhadka_root";
-        $pass = "F@rhad39096048";
+        $pass = "F@rhad390960489";
         $host= "localhost";
         $dbname="farhadka_restapitest";
 
