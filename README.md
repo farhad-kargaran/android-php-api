@@ -13,7 +13,7 @@ This is a simple android project that store and fetch data to mysql using PHP AP
 
 6- assign user to db with all privileges
 
-7- create user table with following command:
+7- create user table with following command (change db name to fit yours):
 
 CREATE TABLE `farhadka_restapitest`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , `password` TEXT NOT NULL , `contact` VARCHAR(50) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
 
